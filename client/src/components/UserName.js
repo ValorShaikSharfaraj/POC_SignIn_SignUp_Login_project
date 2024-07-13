@@ -9,7 +9,7 @@ import { usernameValidatevalues } from "../helper/validate";
 export default function UserName() {
   const formik = useFormik({
     initialValues: {
-      UserName: "",
+      username: "",
     },
     validate: usernameValidatevalues,
     validateOnBlur: false,
