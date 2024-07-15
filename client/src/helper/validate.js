@@ -74,3 +74,9 @@ export async function registerValidation(values) {
 
   return errors
 }
+
+// validate profile page
+export async function profileValidate(values) {
+  const errors = emailVerify({}, values);
+  return errors;
+}
